@@ -1,9 +1,5 @@
-# hello-world
-Hello World repository for Git tutorial
-This is an example repository for the Git tutorial
+# Personal Webpage
 
-This repository is built step by step in the tutorial. 
+**Hello!**
 
-This is another line that I have added from the github client
-
-Editing another line right here
+This is the future location for website, I will be making developments soon so say tuned!
