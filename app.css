@@ -15,7 +15,6 @@ body{
 }
 h1{
 
-
 	padding-top:2.5%;
 
 }
@@ -27,7 +26,7 @@ h1{
 
 }
 
-.top{
+.container{
 	
 	width: 82%;
 	height: 10px;
@@ -38,11 +37,12 @@ h1{
 	
 }
 
-.name{
+.container .name{
 
 	text-align:center;
 	font-family:"Playfair Display", serif;
 	letter-spacing:1.5px; 
+	font-weight:700;
 
 }
 
@@ -75,7 +75,7 @@ em{
 	color:green;
 }
 
-.top .navbar{
+.container .navbar{
 
 	list-style:none;
 	text-align:center;
@@ -83,14 +83,13 @@ em{
 
 }
 
-.top hr{
+.container hr{
 
 	width:75vw;
 	margin-bottom:28px;
 
 }
-
-.top .navbar li{
+.container .navbar li{
 
 	display:inline-block;
 	margin: 0.5rem 5rem;
@@ -98,19 +97,19 @@ em{
 
 }
 
-.top .navbar li a{
+.container .navbar li a{
 
-	text-declaration:none;
+	text-decoration:none;
+	color:black;
 
 }
 
-.top .navbar li:hover{
+.container .navbar li a:hover{
 
 	color:blue;
 	text-decoration:underline;
 
 }
-
 
 
 
