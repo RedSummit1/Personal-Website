@@ -20,7 +20,7 @@ h1{
 
 }
 
-h2{
+.title{
 
 	text-align:center;
 	font-weight:400;
@@ -73,6 +73,42 @@ em{
 	font-weight:700;
 	font-size:1.2em;
 	color:green;
+}
+
+.top .navbar{
+
+	list-style:none;
+	text-align:center;
+	padding:0;
+
+}
+
+.top hr{
+
+	width:75vw;
+	margin-bottom:28px;
+
+}
+
+.top .navbar li{
+
+	display:inline-block;
+	margin: 0.5rem 5rem;
+	font-size:1.15rem;
+
+}
+
+.top .navbar li a{
+
+	text-declaration:none;
+
+}
+
+.top .navbar li:hover{
+
+	color:blue;
+	text-decoration:underline;
+
 }
 
 
