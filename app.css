@@ -1,0 +1,89 @@
+*{
+	margin-top:0;
+}
+
+body{
+
+	background-color:#F0E8FF;
+	box-sizing; border-box;
+	background-image:url("waterfall.gif");
+	padding:0;
+	margin-top:0;
+	margin-bottom: 0;
+	
+
+}
+h1{
+
+
+	padding-top:2.5%;
+
+}
+
+h2{
+
+	text-align:center;
+	font-weight:400;
+
+}
+
+.top{
+	
+	width: 82%;
+	height: 10px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color:white;
+	height: 200vh;
+	
+}
+
+.name{
+
+	text-align:center;
+	font-family:"Playfair Display", serif;
+	letter-spacing:1.5px; 
+
+}
+
+.frame .meirl{
+
+	width:21.5em;
+	height:27em;
+	/* border-radius:50%; */
+	object-fit:fill;
+
+
+}
+
+.frame{
+
+	float:left;
+	width:20rem;
+	height:20rem;
+	border: 3px solid black;
+	border-radius:50%;
+	overflow:hidden;
+	margin:10px;
+
+}
+
+em{
+
+	font-weight:700;
+	font-size:1.2em;
+	color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
