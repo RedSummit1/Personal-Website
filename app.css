@@ -31,9 +31,9 @@ h1{
 	width: 82%;
 	height: 10px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 20px 20px 20px;
 	background-color:white;
-	height: 200vh;
+	height: 100%;
 	
 }
 
@@ -45,7 +45,7 @@ h1{
 	font-weight:700;
 
 }
-
+/%
 .frame .meirl{
 
 	width:21.5em;
@@ -56,20 +56,38 @@ h1{
 
 }
 
+.frame-container{
+
+    display:flex;
+    justify-content:center;
+    margin-bottom:3%;
+
+}
+
+#Skills ul{
+
+    list-style-type:square;
+
+}
+
 .frame{
 
-	float:left;
+	/* float:left; */
 	width:20rem;
 	height:20rem;
 	border: 3px solid black;
 	border-radius:50%;
+    background-image:url("images/S-Stem23-1553.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    /*
 	overflow:hidden;
 	margin:10px;
-
+    */
 }
 
 em{
-
 	font-weight:700;
 	font-size:1.2em;
 	color:green;
@@ -111,14 +129,16 @@ em{
 
 }
 
+a{
+    
+    text-decoration:none;
 
+}
 
+a:hover{
+    
+    color:blue;
+    text-decoration:underline;
 
-
-
-
-
-
-
-
+}
 
